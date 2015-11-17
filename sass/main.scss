@@ -1,0 +1,27 @@
+// Put any @imports here
+// See Readme for a list of supported ones
+
+@import 'foundation';
+
+body {
+  background: #e2ebf3;
+}
+
+.wrapper {
+  border: 20px solid red;
+  margin: 30px 30px 0 30px;
+
+  .form {
+    p{
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+
+  button {
+    width: 30%;
+    margin-left: 300px;
+  }
+
+}
